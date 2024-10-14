@@ -20,7 +20,7 @@ git clone https://github.com/mesaifali/ux-ui-toolkit-extension.git
 - Navigate to the project directory:
 
 ```bash
-cd website-time-tracker
+cd ux-ui-toolkit-extension
 
 ```
 - Load the extension in Chrome:
@@ -35,7 +35,7 @@ cd website-time-tracker
 
 ## Contributing
 
-We welcome contributions to FormFairy! If you have suggestions for improvements or bug fixes, please feel free to:
+We welcome contributions to UX/UI Toolkit! If you have suggestions for improvements or bug fixes, please feel free to:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
