@@ -1,4 +1,4 @@
-# FormFairy: Smart Form Filler & Preset Manager
+# UX/UI Toolkit: All in one Resources For Designer
 
 UX/UI Toolkit is a Chrome extension that --------
 ## Screenshots
