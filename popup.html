@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UX/UI Toolkit Pro</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white p-6 w-96">
+    <h1 class="text-3xl font-bold mb-6 text-center text-white-400">UX/UI Toolkit Pro</h1>
+
+    <div class="mb-4">
+        <button id="toolsTab" class="w-36 bg-gray-800 inline-block py-2 px-4 text-white-500 hover:text-white-800 font-semibold rounded-t">Tools</button>
+        <button id="resourcesTab" class="w-36 bg-gray-800 inline-block py-2 px-4 text-white-500 hover:text-white-800 font-semibold rounded-t">Resources</button>
+    </div>
+
+    <div id="toolsContent" class="grid grid-cols-2 gap-4 mb-6">
+        <button id="colorPalette" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Color Palette</button>
+        <button id="typography" class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">Typography</button>
+        <button id="accessibility" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">Accessibility</button>
+        <button id="performance" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Performance</button>
+        <button id="gridLayout" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Grid & Layout</button>
+        <button id="designSystem" class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">Design System</button>
+        <button id="exportDesignSystemPDF" class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded col-span-2">Export Design System as PDF</button>
+        <button id="contrastAnalyzer" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Contrast Analyzer</button>
+        <button id="imageOptimizer" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Image Optimizer</button>
+        <button id="a11yAuditor" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">A11y Auditor</button>
+        <button id="seoAnalyzer" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">SEO Analyzer</button>
+    </div>
+
+    <div id="resourcesContent" class="hidden">
+        <div class="mb-4">
+            <button id="uiResourcesTab" class="bg-gray-800 inline-block py-2 px-4 text-white-500 hover:text-white-800 font-semibold rounded-t">UI</button>
+            <button id="uxResourcesTab" class="bg-gray-800 inline-block py-2 px-4 text-white-500 hover:text-white-800 font-semibold rounded-t">UX</button>
+        </div>
+        <div id="uiResources" class="mb-4"></div>
+        <div id="uxResources" class="mb-4 hidden"></div>
+    </div>
+
+    <div id="result" class="flex-grow overflow-auto p-4 bg-gray-800 rounded mt-4"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
